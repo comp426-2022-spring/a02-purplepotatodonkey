@@ -1,13 +1,13 @@
 {
   "name": "coinflip",
+  "type": "module",
   "version": "0.0.1",
   "description": "This is a simple package that emulates coin flips in several different ways.",
   "main": "flip.js",
-  "type": "module",
   "scripts": {
     "flip": "node flip.js",
-	  "flips": "node flips.js",
-	  "guess": "node guess-flip.js",
+    "flips": "node flips.js",
+    "guess": "node guess-flip.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/comp426-2022-spring/a02-purplepotatodonkey/issues"
   },
-  "homepage": "https://github.com/comp426-2022-spring/a02-purplepotatodonkey#readme"
+  "homepage": "https://github.com/comp426-2022-spring/a02-purplepotatodonkey#readme",
+  "dependencies": {
+    "minimist": "^1.2.6"
+  }
 }
